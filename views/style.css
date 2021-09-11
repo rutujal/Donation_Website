@@ -1,0 +1,740 @@
+@import url("https://fonts.googleapis.com/css2?family=Poiret+One&display=swap");
+
+* {
+  font-family: "Poiret One", cursive;
+  font-weight: bold;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+li,
+p,
+a {
+  font-size: 1.6rem;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 3.5rem;
+}
+
+h3 {
+  font-size: 3rem;
+}
+
+.row {
+  margin: 0;
+}
+
+.navbar-style {
+  background-color: #f8f9fa;
+  box-shadow: 2px 4px 13px 1px rgba(8, 8, 8, 0.04);
+}
+.navbar-light .navbar-brand{
+    background-color:rbg(224,224,224);
+}
+#logo {
+  display: initial;
+  font-weight: 600;
+  font-size: 3.5rem;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  color: #fd5c63;
+  text-shadow: 2px 5px 3px rgba(0, 0, 0, 0.06);
+  padding: 0;
+  text-decoration: underline;
+
+}
+.navbar-light{
+  background-color:rgb(207, 204, 204);
+}
+
+
+.navbar .navbar-nav .nav-link {
+  color: black;
+  text-transform: capitalize;
+  letter-spacing: 0.1rem;
+  padding-left: 1rem;
+  font-size: 2.5rem;
+}
+
+
+.navbar .navbar-nav .nav-link:hover{
+  color: #fd5c63;
+  background-color: #fd5c63 ;
+}
+
+
+
+
+
+/* our hero sections  */
+
+.hero-text h1 {
+  font-size: 5rem;
+  line-height: 1.5;
+  text-shadow: 5px 4px 11px rgba(0, 0, 0, 0.26);
+  letter-spacing: 1px;
+  color: #2f2f2f;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.hero-text h2 {
+  font-size: 4.5rem;
+  line-height: 1.5;
+  text-shadow: 5px 4px 11px rgba(0, 0, 0, 0.26);
+  letter-spacing: 1px;
+  color: blue;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.hero-text h1:nth-child(2) {
+  font-weight: bold;
+  color: #5222d0;
+}
+
+.hero-text p,
+.our-services p,
+label {
+  font-size: 1.7rem;
+  letter-spacing: 0.2rem;
+  color: #777676;
+  text-transform: capitalize;
+  margin-top: 1.5rem;
+  margin-bottom: 5rem;
+}
+
+.hero-text p span {
+  font-weight: bold;
+  color: #000;
+}
+
+.btn-style {
+  padding: 12px 25px;
+  border: none;
+  color: #fff;
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border: 2px solid #fff;
+  background: #ec615b;
+  -webkit-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  -o-transition: 0.5s all;
+  -ms-transition: 0.5s all;
+  transition: 0.5s all;
+  width:25%;
+  border-radius: 5px;
+}
+.newone{
+  margin: 20px;
+    margin-left: 170px;
+}
+
+.stripe-button-el span{
+  padding: 20px 10px;
+  background: radial-gradient(#4C688F 10%,#7691b6 80%);
+  box-shadow: 0 0 20px -2px #29374c;
+  border: 1px solid #243B65;
+  border-radius: 10px;
+  font-size: 1rem;
+  color: #DFDFDD;
+  width: 250px;
+  margin: 10px auto 10px auto
+}
+.wrap{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  width:60%;
+margin: 2rem auto;
+line-height: 1.6;}
+
+.hero-text p{
+  color:#2f2f2f;
+  border: 1px solid blue;
+  border-radius: 20px;
+  padding: 30px;
+    margin: 60px;
+}
+
+
+
+/*   starts here  */
+
+.contact-style {
+  margin: 10rem 0;
+}
+
+label {
+  margin-top: 2rem;
+  margin-bottom: 0;
+}
+
+.form-control {
+  padding: 2rem 1rem;
+  font-size: 1.7rem;
+  font-weight: 600;
+}
+
+#emailHelp,
+::placeholder {
+  font-size: 1.5rem;
+}
+
+::placeholder {
+  font-weight: 600;
+}
+
+
+/*footer start here*/
+
+section {
+  width: 100%;
+  display: inline-block;
+  background: #333;
+  height: 50vh;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.footer-distributed{
+	background: #666;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+	padding: 55px 50px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+	width: 40%;
+}
+
+
+
+.footer-distributed h3{
+	color:  #ffffff;
+	font: normal 36px 'Open Sans', cursive;
+	margin: 0;
+}
+
+.footer-distributed h3 span{
+	color:  lightseagreen;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+	color:  #ffffff;
+	margin: 20px 0 12px;
+	padding: 0;
+}
+
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+  font-weight:400;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+	color:  #222;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center{
+	width: 35%;
+}
+
+.footer-distributed .footer-center i{
+	background-color:  #33383b;
+	color: #ffffff;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope{
+	font-size: 17px;
+	line-height: 38px;
+}
+
+.footer-distributed .footer-center p{
+	display: inline-block;
+	color: #ffffff;
+  font-weight:400;
+	vertical-align: middle;
+	margin:0;
+}
+
+.footer-distributed .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+
+.footer-distributed .footer-center p a{
+	color:  lightseagreen;
+	text-decoration: none;;
+}
+
+.footer-distributed .footer-links a:before {
+  content: "|";
+  font-weight:300;
+  font-size: 20px;
+  left: 0;
+  color: #fff;
+  display: inline-block;
+  padding-right: 5px;
+}
+
+.footer-distributed .footer-links .link-1:before {
+  content: none;
+}
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+	width: 20%;
+}
+
+.footer-distributed .footer-company-about{
+	line-height: 20px;
+	margin: 0;
+  color:#ffff;
+  display: block;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 2;
+
+}
+
+.footer-distributed .footer-company-about span{
+	display: block;
+	color: red;
+	font-size: 30px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons{
+	margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #33383b;
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+
+
+
+/*start team*/
+
+.team-section
+{
+	background: #f1f2f6;
+	text-align: center;
+}
+
+.inner-width
+{
+	max-width: 1200px;
+	margin: auto;
+	padding: 40px;
+	color: #333;
+	overflow: hidden;
+}
+
+.team-section h1
+{
+	font-size: 20px;
+	text-transform: uppercase;
+	display: inline-block;
+	padding-bottom: 10px;
+}
+
+.pe
+{
+	float: left;
+	width: calc(100% / 3);
+	overflow: hidden;
+	padding: 40px 0;
+	transition: 0.4s;
+}
+
+.pe:hover
+{
+	background:#adb5bd;
+}
+
+.pe img
+{
+	width:250px;
+	height: 250px;
+	border-radius: 50%;
+}
+
+.p-name
+{
+  font-size: 30px;
+	margin: 5px;
+	text-transform: uppercase;
+}
+
+.p-des
+{
+  font-size: 25px;
+	font-style: italic;
+	color: #3498db;
+}
+
+.p-sm
+{
+	margin-top: 6px;
+}
+
+.p-sm a
+{
+	margin: 0 4px;
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	transition: 0.4s;
+}
+
+.p-sm a:hover
+{
+	transform: scale(1.3);
+}
+
+.p-sm a i
+{
+	color: #333;
+	line-height: 30px;
+}
+
+@media screen and (max-width: 960px) {
+	.pe{
+		width: 45%;
+	}
+}
+@media screen and (max-width: 768px) {
+	.pe{
+		width: 50%;
+	}
+}
+@media screen and (max-width: 600px) {
+	.pe{
+		width: 100%;
+	}
+}
+/*end team*/
+
+/*about starts*/
+
+.about-section{
+  background: url("Images/about4.jfif") no-repeat left;
+  background-size: 45%;
+  background-color:#dfe4ea;
+  overflow: hidden;
+  padding: 80px 0;
+  margin: 10px;
+  margin-left: 140px;
+  margin-right: 140px;
+
+}
+.inner-container{
+  width: 55%;
+  float: right;
+  background-color: #fdfdfd;
+  padding: 120px;
+}
+
+.inner-container h1{
+  margin-bottom: 30px;
+  font-size: 60px;
+  color:crimson;
+  font-weight: 900;
+}
+
+.text{
+  font-size: 20px;
+  color: #545454;
+  line-height: 30px;
+  text-align: justify;
+  margin-bottom: 40px;
+}
+
+
+
+/*about ends*/
+
+/*service starts*/
+
+
+div#services {
+  background: #f7f6f6;
+  text-align: center;
+  font-family: 'Metal Mania';
+  padding: 25px;
+  overflow: hidden;
+}
+.ServiceInner h2 {
+  font-size: 60px;
+    color: crimson;
+    font-weight: 900;
+}
+
+.ServiceInner p {
+  font-size: 25px;
+  padding: 20px;
+  color: #313d4a;
+  margin-bottom: 20px;
+}
+
+div#serviceMainBlock {
+  text-align: center;
+  margin: auto;
+  display: inline-flex;
+margin-left: 120px;}
+
+.ServiceBox {
+  /*float: left;*/
+  display: inline-block;
+  width: 30%;
+}
+
+.ServiceBox.web i {
+  color: white;
+  background: #FF3A46;
+  text-align: center;
+  border-radius: 50%;
+  padding: 18px;
+  margin: 15px;
+}
+
+.ServiceBox.web {
+  background: white;
+  padding: 30px 10px;
+}
+
+.ServiceBox.web p {
+  font-size: 20px;
+  padding: 41px;
+}
+
+.ServiceBox.web h2 {
+  font-size: 40px;
+  color: crimson;
+  font-weight: 900;
+}
+
+
+.ServiceBox.graphic i {
+  color: white;
+  background: #00A0F0;
+  text-align: center;
+  border-radius: 50%;
+  padding: 18px;
+  margin: 15px;
+}
+
+.ServiceBox.graphic {
+  background: white;
+  padding: 30px 10px;
+}
+
+.ServiceBox.graphic p {
+  font-size: 20px;
+  padding: 41px;
+}
+
+.ServiceBox.graphic h2 {
+  font-size: 40px;
+  font-weight: 900;
+  color: #00A0F0;
+}
+
+
+.ServiceBox.seo i {
+  color: white;
+  background:#FF3A46;
+  text-align: center;
+  border-radius: 50%;
+  padding: 18px;
+  margin: 15px;
+}
+
+.ServiceBox.seo {
+  background: white;
+  padding: 30px 10px;
+}
+
+.ServiceBox.seo p {
+  font-size: 20px;
+  padding: 41px;
+}
+
+.ServiceBox.seo h2 {
+  font-size: 40px;
+  font-weight: 900;
+  color:#FF3A46;
+}
+.ServiceBox {
+  box-shadow: 4px 4px 20px #afafaf;
+  transition-duration: 0.6s;
+}
+
+.fa {
+  font-size: 25px;
+}
+
+.ServiceBox.web:hover{
+  box-shadow: -3px 3px 15px #FF3A46;
+  cursor: pointer;
+}
+
+.ServiceBox.graphic:hover{
+  box-shadow: -3px 3px 15px #00A0F0;
+  cursor: pointer;
+}
+.ServiceBox.seo:hover{
+  box-shadow: -3px 3px 15px #FF3A46;
+  cursor: pointer;
+}
+
+.ServiceBox p {
+  color: #3a3939;
+}
+
+/*service ends*/
+/* media queries part starts here  */
+@media screen and (max-width:1200px){
+  .inner-container{
+      padding: 80px;
+  }
+}
+
+@media screen and (max-width:1000px){
+  .about-section{
+      background-size: 100%;
+      padding: 100px 40px;
+  }
+  .inner-container{
+      width: 100%;
+  }
+}
+
+@media screen and (max-width:600px){
+  .about-section{
+      padding: 0;
+  }
+  .inner-container{
+      padding: 60px;
+  }
+}
+@media (max-width: 768px) {
+  #logo {
+    font-size: 2.5rem;
+  }
+
+  .hero-text h1 {
+    font-size: 3rem;
+  }
+
+  figure {
+    margin: 5rem 0;
+  }
+
+  figure img {
+    min-width: 100%;
+  }
+
+  .hero-text p,
+  .our-services p,
+  label {
+    font-size: 1.5rem;
+  }
+
+  .about-style .sub-heading,
+  .service-style .sub-heading,
+  .contact-style .sub-heading {
+    font-size: 2rem;
+  }
+}
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 880px) {
+
+	.footer-distributed{
+		font: bold 14px sans-serif;
+	}
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-center,
+	.footer-distributed .footer-right{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+
+	.footer-distributed .footer-center i{
+		margin-left: 0;
+	}
+
+}
+
+
+* {
+  font-family: "Poiret One", cursive;
+  font-weight: bold;
+}
+
+
+
